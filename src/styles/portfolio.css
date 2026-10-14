@@ -122,5 +122,8 @@ footer{position:relative;z-index:2;text-align:center;padding:36px;color:var(--mu
   .ct{grid-template-columns:1fr}
   section{padding:80px 18px}
   .cur{display:none}
+  @media(max-width:860px){
+  .b-stat b{font-size:clamp(24px,7vw,36px)}
+}
 }
 
