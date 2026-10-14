@@ -4,7 +4,7 @@ export const ME = {
   name: "Aniket Gupta",
   roles: ["Frontend Developer", "Backend Developer", "MERN Stack Developer", "Web Developer"],
   tagline: "I build responsive and dynamic web applications with modern technologies.",
-  photo: "/ani123.jpeg", // apni photo: public/me.jpg me rakho aur "/me.jpg" likho. Khali = initials
+  photo: "/ani1.jpeg", // apni photo: public/me.jpg me rakho aur "/me.jpg" likho. Khali = initials
   email: "aniketgupta3071@gmail.com",
   phone: "9939323071",
   location: "Delhi, India",
