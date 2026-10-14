@@ -125,5 +125,13 @@ footer{position:relative;z-index:2;text-align:center;padding:36px;color:var(--mu
   @media(max-width:860px){
   .b-stat b{font-size:clamp(24px,7vw,36px)}
 }
+.ct > *{min-width:0}
+.links a span:last-child{overflow-wrap:anywhere;text-align:right}
+
+@media(max-width:860px){
+  .links a{flex-direction:column;gap:4px;padding:14px 16px}
+  .links a span:first-child{font-size:13px;color:var(--mute)}
+  .links a span:last-child{text-align:left;font-size:16px}
+}
 }
 
